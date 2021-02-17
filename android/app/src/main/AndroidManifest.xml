@@ -12,10 +12,11 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="public_transport_driver"
+        android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
 
         <meta-data android:name="com.google.android.geo.API_KEY"
-        android:value=""/>
+        android:value="AIzaSyBLqRKXboIu84LXJozjubPJSC0BknDm6oc"/>
 
         <activity
             android:name=".MainActivity"
