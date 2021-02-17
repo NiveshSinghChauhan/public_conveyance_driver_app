@@ -71,7 +71,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       driver.set({
         'name': nameController.value.text,
         'contact': phoneController.value.text,
-        'driving_licence_no': drivingLicenseNoController.value.text,
+        'driving_license_no': drivingLicenseNoController.value.text,
         'vehicle_id': vehicle.id,
         'driving_license_url': fileUpload[0].ref.fullPath,
         'photo_url': fileUpload[1].ref.fullPath,
